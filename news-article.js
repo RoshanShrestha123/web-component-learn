@@ -4,7 +4,7 @@ class NewsArticle extends HTMLElement{
         this.root = this.attachShadow({mode:'open'});
     }
 
-    set news(news){
+    set news(data){
         this.root.innerHTML = `
         <style>
             h3 {
@@ -13,7 +13,7 @@ class NewsArticle extends HTMLElement{
             }
         </style>
         <div>
-            <h3> ${news.title} </h3>
+            <h3> ${data.title} </h3>
             <hr>
         </div>`
     }

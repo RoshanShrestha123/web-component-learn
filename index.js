@@ -1,4 +1,5 @@
 import './news-article.js';
+import './test-btn.js';
 window.addEventListener('load',()=>{
     const main = document.querySelector('main');
     const URL ='https://jsonplaceholder.typicode.com/todos/';
@@ -13,6 +14,9 @@ window.addEventListener('load',()=>{
            const el = document.createElement('news-article');
            el.news = data;
            main.appendChild(el);
+           const btn = document.createElement('test-btn');
+           btn.testBtn ='click me!';
+           main.appendChild(btn);
        }) 
     }
 })
