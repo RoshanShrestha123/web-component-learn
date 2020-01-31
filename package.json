@@ -1,0 +1,11 @@
+{
+  "name": "webcomponent-learn",
+  "version": "1.0.0",
+  "description": "this is practice code of building web component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roshan Shrestha",
+  "license": "ISC"
+}
